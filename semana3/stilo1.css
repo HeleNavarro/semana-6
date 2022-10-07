@@ -1,0 +1,42 @@
+.title{
+    position: absolute;
+    width: 1440px;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+    
+    background: #00AF1C;
+}
+
+.nombre{
+    position: absolute;
+width: 130px;
+height: 26px;
+left: 63px;
+top: 2229px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: #000000;
+}
+position: absolute;
+width: 130px;
+height: 26px;
+left: 63px;
+top: 2229px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: #000000;
