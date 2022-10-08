@@ -3,7 +3,7 @@
     animation-duration: 10s;
     background-color: green;
     }
-}
+
 
 /* ESTO ES UN BALON */
 .ball-uno{
@@ -11,7 +11,7 @@
     width: 100px;
     transform: translateY(-400px);
     }
-}
+
 
 .lineas{
     text-align: center;
