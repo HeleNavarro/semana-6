@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+    font-family: Arial;
+}
+/*------------Header----------------*/
+.cabeza{
+    background-color: #00AF1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;    
+}
+/*----------------Logo---------------*/
+.logo{
+    margin-left: 25px;
+}
+
+.servicios-title{
+    margin-right: 25px;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.servicios-title a{
+    text-decoration: none;
+    color: white;
+}
+
+.servicios-title a{
+    transition:all;
+}
+
+.servicios-title a:hover{
+    background: black;
+}
+
+.seccion{
+    padding: 20px;
+    margin-top: 4rem;
+}
+/*------------home--------*/
+.home{
+    color: #3B06D2;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+    padding-top: 20px;
+}
+.img{
+    margin-left: 20px;
+   
+    height: 160px;  
+}
+/*--------Servicios-------*/
+#servicios{
+    color: #D206B2;
+}
+
+.numeros li{
+    margin-bottom: 0.8rem;
+}
+
+ .numeros li::marker{
+    color: red;
+}
+
+.uno{
+    color: #f40d0d;
+}
+.dos{
+    color: #1400FF ;
+}
+.tres{
+    color: #D79B00;
+}
+.cuatro{
+    color: #03B2B2;
+}
+
+.numeros2 li{
+    margin-bottom: 0.8rem;
+}
+ .numeros2 li::marker{
+    color: yellow;
+}
+
+.nombre{
+    width: 1339px;
+    height: 88px;
+}
+
+.detalle{
+    width: 1339px;
+    height: 214px;
+}
+.boton{
+    width: 195px;
+    height: 73px;
+    color: #00AF1C;  
+}
+
+.pies{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #00AF1C;
+    color: white;
+}
+
+.mov{
+
+    padding-top: 70px;
+}
