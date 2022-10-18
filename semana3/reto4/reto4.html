@@ -1,137 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./reto4.css">
-    <title>Reto-4-Navarro</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <title>Reto4-navarro</title>
 </head>
 <body>
-    <header>
+    <section id="landing">
         <nav>
-            <img src="./src/images/logo.svg" alt="">
-            <button class="try-btn" type="button">Try It Free</button>
+            <img src="./src/images/logo.svg" alt="logo" class="logo">
+            <button class="btn btn-default">Try it free</button>
         </nav>
-    </header>
-    <main>
-        <section class="cabecera">
-            <div class="into-header">
-                <div class="texto-header">
-                    <h1>Build The Community Your Fans Will Love</h1>
-                    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-                    <button class="free-btn">Get Started For Free</button>
-                </div>
-                <div class="mockup">
-                    <img class="image-mockup" src="./src/images/illustration-mockups.svg" alt="">
-                </div>
+        <section>
+            <div class="column-50">
+                <p class="title text-dark">Build The Community</br>Your Fans Will Love</p>
+
+                <p class="text-dark">Huldle re-images the way we build communities. You have a voice, buy so does your
+                    audience. Create connections with your users as you engage in genuine disscusion</p><br>
+                <button class="btn btn-pink">Get Started For Free</button>
+            </div>
+            <div class="column-50">
+                <img src="./src/images/illustration-mockups.svg" alt="" id="img_mock">
             </div>
         </section>
-    </main>
+    </section>
 
-<!-- CUERPO -->
-    <section class="cuerpo">
-        <div>
-            <div class="grow box-contect">
-                <div class="text-box">
-                    <h1>Grow Together</h1>
-                    <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-                </div>
-                <div>
-                    <img class="body-img img-box" src="./src/images/illustration-grow-together.svg" alt="">
-                </div>
+    <section id="container_cards">
+        <div class="card">
+            <div class="column card_text">
+                <p class="subtitle text-dark">Grow Together</p>
+                <p class="text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium beatae itaque
+                    accusantium sunt ut, pariatur officia rerum, ab, libero quidem enim. Totam, officiis!</p>
             </div>
-            <div class="flowing box-contect">
-                <div class="text-box">
-                    <h1>Flowing Conversations</h1>
-                    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
-                </div>
-                <div>
-                    <img class="body-img img-box" src="./src/images/illustration-flowing-conversation.svg" alt="">
-                </div>
+            <div class="column card_img">
+                <img src="./src/images/illustration-grow-together.svg" alt="">
             </div>
-            <div class="users box-contect">
-                <div class="text-box">
-                    <h1>Your Users</h1>
-                    <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
-                </div>
-                <div>
-                    <img class="body-img img-box" src="./src/images/illustration-your-users.svg" alt="">
-                </div>
+        </div>
+        <div class="card">
+            <div class="column">
+                <img src="./src/images/illustration-flowing-conversation.svg" alt="">
             </div>
-
-            <div class="box-content">
-                <div class="floatbox">
-                    <h1>Ready To Build Your Community?</h1>
-                    <button>Get Started For Free</button>
-                </div>
+            <div class="column card_text">
+                <p class="subtitle text-dark">Flowing Conversations</p>
+                <p class="text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium beatae itaque
+                    accusantium sunt ut, pariatur officia rerum, ab, libero quidem enim. Totam, officiis!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="column card_text">
+                <p class="subtitle text-dark">Your Users</p>
+                <p class="text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium beatae itaque
+                    accusantium sunt ut, pariatur officia rerum, ab, libero quidem enim. Totam, officiis!</p>
+            </div>
+            <div class="column">
+                <img src="./src/images/illustration-your-users.svg" alt="">
             </div>
         </div>
     </section>
-
-<!-- PIE DE PAGINA -->
-    <footer>
-        <div>
-            <img class="footer-logo" src="./src/images/logo.svg" alt="">
-        </div>
-        <div class="footer-content">
-            <div class="texts-icons">
-                <div class="icon-p">
-                    <img src="./src/images/icon-location.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<p>
+    <section id="footer">
+        <section id="ready">
+            <p class="subtitle text-dark">Ready to Build Your Community?</p>
+            <button class="btn btn-pink">Get Started For Free</button>
+        </section>
+        <section id="content-footer">
+            <img src="src/images/logo.svg" alt="logo" class="logo logo-white">
+            <div id="content-text">
+                <div class="col-footer">
+                    <div>
+                        <img src="./src/images/icon-location.svg" alt="" width="15" height="15"> 
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti dicta..</span></div>
+                    <div>
+                        <img src="./src/images/icon-phone.svg" alt="" width="15" height="15">
+                        <span>+1-567-567-345</span>
+                    </div>
+                    <div>
+                        <img src="./src/images/icon-email.svg" alt="" width="15" height="15">
+                        <span>example@hundle.com</span>
+                    </div>
                 </div>
-                <div class="icon-p">
-                    <img src="./src/images/icon-phone.svg" alt="">
-                    <p>+1-543-123-4567</p>
+                <div class="col-footer">
+                    <div><span>About US</span></div>
+                    <div><span>What We Do</span></div>
+                    <div><span>FAQ</span></div>
                 </div>
-                <div class="icon-p">
-                    <img src="./src/images/icon-email.svg" alt="">
-                    <p>example@huddle.com</p>
+                <div class="col-footer">
+                    <div><span>Carer</span></div>
+                    <div><span>Blog</span></div>
+                    <div><span>Contact Us</span></div>
                 </div>
-            </div>
-            <div class="sections-footer">
-                <div>
-                    <a href="">About Us</a>
-                </div>
-                <div>
-                    <a href="">What We Do</a>
-                </div>
-                <div>
-                    <a href="">FAQ</a>
-                </div>
-            </div>
-            <div class="sections-footer">
-                <div>
-                    <a href="">Career</a>
-                </div>
-                <div>
-                    <a href="">Blog</a>
-                </div>
-                <div>
-                    <a href="">Contact Us</a>
+                <div class="col-footer">
                 </div>
             </div>
-            <div class="redes">
-                <div>
-                    <a href="">
-                        <img class="redes-icon"  src="./src/images/" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img class="redes-icon" src="/Semana3/src3/landing/images/gorjeo.png" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img class="redes-icon" src="/Semana3/src3/landing/images/instagram.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>Copyright 2018 Huddle. All rights reserved.</p>
-        </div>
-    </footer>
+        </section>
+        <section id="copy">
+           @copyright 2018 Huddle. All rights reserved
+        </section>
+    </section>
 </body>
 </html>
