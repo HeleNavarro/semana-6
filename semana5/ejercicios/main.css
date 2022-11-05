@@ -1,0 +1,17 @@
+body{
+    background-image:url("./img.ejer/matematica.jpg") ;
+}
+button{
+    background-color: rgb(0, 255, 0);
+    width: 200px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.hasclick{
+    text-align: center;
+}
